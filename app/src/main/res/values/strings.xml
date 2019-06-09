@@ -1,0 +1,162 @@
+<resources>
+    <string name="app_name">Ecommerce</string>
+    <string name="logo">Chives</string>
+    <string name="signin">SignIn</string>
+    <string name="signup">SignUp</string>
+    <string name="phone_number">Enter Phone Number</string>
+    <string name="password">Enter Password</string>
+    <string name="repassword">Re-Enter Password</string>
+    <string name="login">login</string>
+    <string name="user_name">Enter User Name</string>
+    <string name="reset">Reset</string>
+    <string name="forget_password">forget password!</string>
+    <string name="new_user_register">new user? click here</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="new_user_registeration">New User Registration</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="menu">Menu</string>
+    <string name="cart">Cart</string>
+    <string name="orders">Orders</string>
+
+    <string name="avneesh">Avneesh</string>
+    <string name="welcome">Welcome</string>
+
+    <string name="order_now">Order Now</string>
+    <string name="food_name">Food Name</string>
+    <string name="food_description">Food Description</string>
+    <string name="_100">100</string>
+    <string name="price">Price</string>
+    <string name="total">Total:</string>
+    <string name="placeOrder">Place Order</string>
+    <string name="food_01">Food 01</string>
+    <string name="status">Status</string>
+    <string name="_1234567890">1234567890</string>
+    <string name="address">address</string>
+    <string name="_11111">#11111</string>
+    <string name="enter_food_name">Enter food name</string>
+    <string name="Remember_me">Remember me</string>
+    <string name="chives_a_food_delivery_app">Chives - A Food Delivery App</string>
+    <string name="_login">Login</string>
+    <string name="register">Register</string>
+    <string name="_address">Address</string>
+    <string name="Comment">Comment</string>
+    <string name="comment">Comment</string>
+    <string name="Password">Password</string>
+    <string name="newPassword">New Password</string>
+    <string name="RepeatePassword">Repeate Password</string>
+    <string name="changePassword">Change Password</string>
+    <string name="Rs">\u20B9</string>
+    <string name="shipe_to_this_address">Ship to this address</string>
+    <string name="ship_to_home_address">Ship to home address</string>
+    <string name="show_comment">Show Comment</string>
+    <string name="user_phone">User Phone</string>
+
+    <string name="Swipe_to_delete">Swipe to delete</string>
+
+    <string name="customise_your_food">Customise your food</string>
+    <string name="ingredients">Ingredients:</string>
+    <string name="select_vegetables">Select Vegetables</string>
+    <string name="select_sauces">Select Sauces</string>
+    <string name="select_spices">Select Spices </string>
+    <string name="select_bread_base">Select Bread Base</string>
+    <string name="select_non_veg">Select Non-Veg Products</string>
+    <string name="select_dairy_product">Select Dairy Products</string>
+    <string name="add_coment">Add Coment</string>
+    <string name="request_customisation">Request Customisation</string>
+    <string name="dialog_title_1">Items available in shop</string>
+    <string name="ok">Ok</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="clear">Clear All</string>
+    <string name="food_customise">Food Customisation</string>
+
+    <string name="googleapikey">AIzaSyB9MH-Li10e9LfeM5JM-aWPI9NynSnOjy4</string>
+    <string name="choose_delivery_method">Choose Delivery Method:</string>
+    <string name="cash_on_delivery">Cash on Delivery</string>
+    <string name="paypal">PayPal</string>
+
+    <string-array name="vegetables">
+        <item>green chilli</item>
+        <item>cauliflower</item>
+        <item>cabbage</item>
+        <item>potato</item>
+        <item>tomato</item>
+        <item>coriander</item>
+        <item>spring onions</item>
+        <item>carrot</item>
+        <item>green peas</item>
+        <item>green capsicum</item>
+        <item>red capsicum</item>
+        <item>onions</item>
+        <item>garlic</item>
+        <item>ginger</item>
+        <item>beetroot</item>
+        <item>bottle ground</item>
+        <item>cluster beans</item>
+        <item>eggplant</item>
+        <item>lady finger</item>
+        <item>mushroom</item>
+        <item>mint leaves</item>
+        <item>spinach</item>
+    </string-array>
+
+    <string-array name="sauces">
+        <item>tomato sauce</item>
+        <item>white sauce</item>
+        <item>white viniger</item>
+        <item>soya suce</item>
+        <item>red hot sauce</item>
+        <item>mustard sauce</item>
+    </string-array>
+
+    <string-array name="spices">
+        <item>fennel seeds</item>
+        <item>basil</item>
+        <item>bay leaf</item>
+        <item>cardamon</item>
+        <item>cinnamon</item>
+        <item>turmeric powder</item>
+        <item>coriander powder</item>
+        <item>red chilli powder</item>
+        <item>clove</item>
+        <item>curry leaf</item>
+        <item>cumin seeds</item>
+        <item>refiend oil</item>
+        <item>mustard oil</item>
+        <item>olive oil</item>
+    </string-array>
+
+    <string-array name="bread_base">
+        <item>wheat base bread</item>
+        <item>white flour base</item>
+        <item>multigrain bread base</item>
+        <item>gram flour bread</item>
+    </string-array>
+
+    <string-array name="Non_veg">
+        <item>chicken</item>
+        <item>mutton</item>
+        <item>lamb</item>
+        <item>crab</item>
+        <item>beaf</item>
+        <item>duck</item>
+    </string-array>
+
+    <string-array name="dairy">
+        <item>cow milk</item>
+        <item>goat milk</item>
+        <item>white eggs</item>
+        <item>brown eggs</item>
+        <item>paneer</item>
+        <item>cheese</item>
+        <item>butter</item>
+    </string-array>
+</resources>

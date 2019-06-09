@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.oem.ecommerce.Activity.FoodCustomise">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="95dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/customise_your_food"
+                android:textSize="20sp"
+                android:textStyle="italic|bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="25dp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/ingredients"
+                android:textSize="20sp"
+                android:textStyle="italic|bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="25dp" />
+
+            <Button
+                android:id="@+id/vegii"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="90dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/select_vegetables" />
+
+            <Button
+                android:id="@+id/sauce"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="90dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/select_sauces" />
+
+            <Button
+                android:id="@+id/spice"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="90dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/select_spices" />
+
+            <Button
+                android:id="@+id/bread"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="90dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/select_bread_base" />
+
+            <Button
+                android:id="@+id/non-veg"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="90dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/select_non_veg" />
+
+            <Button
+                android:id="@+id/dairy"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="90dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/select_dairy_product" />
+
+            <EditText
+                android:id="@+id/add_coment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/add_coment"
+                android:maxLength="100"
+                android:maxLines="20"
+                android:paddingTop="20dp" />
+
+            <Button
+                android:paddingTop="20dp"
+                android:id="@+id/requestCustomise"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:text="@string/request_customisation"
+                android:layout_gravity="center"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>
